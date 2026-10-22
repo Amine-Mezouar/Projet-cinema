@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+nav a {
+  font-weight: 900;
+  color: white;
+  margin: 2rem;
+}
+nav a:hover {
+  color: brown;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.movie article {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+
+article {
+  display: grid;
+  justify-items: center;
+}
+
+article a {
+  margin: 0.5rem;
+}
+.info {
+  margin-top: 5rem;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+h2 {
+  color: brown;
+}
+
+a {
+  color: brown;
+}
+
+.movie {
+  display: block;
+  justify-items: center;
+}
+
+button {
+  display: block;
+  justify-items: center;
+  margin: 2rem auto;
+  background: #c0392b;
+  border-radius: 15px;
+  border-color: black;
+}
+
+button[hidden] {
+  display: none;
+}
